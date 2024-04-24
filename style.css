@@ -4,7 +4,7 @@
 }
 
 .cabecalho{
-    background-image: linear-gradient(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74) );
+    background-image: linear-gradient(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74));
     color: #c5c0c0;
     display: flex;
     justify-content: space-around;
@@ -23,6 +23,10 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.valorant{
+    background-image: linear-gradient();
 }
 
 .valorant-titulo{
