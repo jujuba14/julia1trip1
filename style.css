@@ -3,20 +3,22 @@
     padding: 0;
 }
 
+
+
+
+
 .cabecalho{
     background-image: linear-gradient(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74));
     color: #c5c0c0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 24px 0;
 }
-
-
 
 .cabecalho-imagem{
     border-radius: 10%;
     width: 50%;
-    justify-content: left;
 }
 
 .cabecalho-lista-item{
@@ -26,20 +28,62 @@
 }
 
 .valorant{
-    background-image: linear-gradient();
+    background-image: linear-gradient(rgb(92, 74, 74), rgb(190, 39, 39),rgb(136, 48, 48));
+    color: #c5c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.valorant-div-conteudo{
+    width: 75%;
 }
 
 .valorant-titulo{
- text-align: center;
- margin: 0 16px;
- font-size: 24px;
-}
-
-.valorant-titulo-dois{
+    padding: 24px 0;
+    text-align: center;
     margin: 0 16px;
- font-size: 24px;
+    font-size: 24px;
 }
 
 .valorant-texto-um{
- text-align: center;
+    text-align: justify;
+}
+
+.funcoes{
+    background-image: linear-gradient(rgb(163, 238, 252),rgb(255, 204, 240),rgb(252, 176, 189));
+    padding: 24px 0;
+}
+
+.funcoes-imagem{
+    width: 120px;
+    padding: 0 100px;
+}
+
+.funcoes-div{
+    text-align: center;
+}
+
+.funcoes-todos{
+    display: grid;
+    grid-template-columns: 15% 25% 25% 70%;
+}
+
+.funcoes-titulo{
+    margin: 0 180px;
+    padding: 24px 0;
+}
+
+.funcoes-imagem-2{
+    width: 250px;
+}
+
+.funcoes-texto-um{
+    padding: 12px 24px;
+    text-align:justify;
+}
+
+.funcoes-nome{
+    padding: 5px 120px;
 }
