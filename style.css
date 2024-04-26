@@ -8,8 +8,8 @@
 
 
 .cabecalho{
-    background-image: linear-gradient(rgb(31, 0, 0),rgb(92, 18, 18),rgb(117, 31, 31));
-    color: #a8a2a2;
+    background-image: linear-gradient(rgb(56, 1, 1),rgb(85, 2, 2),rgb(117, 31, 31));
+    color: #e6e3e3;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,8 +28,8 @@
 }
 
 .valorant{
-    background-image: linear-gradient(rgb(117, 31, 31),rgb(172, 41, 41));
-    color: #c5c0c0;
+    background-image: linear-gradient(rgb(117, 31, 31),rgb(146, 30, 30),rgb(168, 36, 36));
+    color: #b8b8b8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
 }
 
 .funcoes{
-    background-image: linear-gradient(rgb(172, 41, 41),rgb(131, 42, 42));
+    background-image: linear-gradient(rgb(168, 36, 36),rgb(173, 50, 50),rgb(131, 42, 42));
     padding: 24px 0;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .funcoes-titulo{
-    color: #a8a2a2;
+    color: #000000;
     margin: 0 335px;
     padding: 24px 0;
     font-size: 30px;
@@ -84,13 +84,13 @@
 }
 
 .funcoes-texto-um{
-    color: #c5c0c0;
+    color: #a3a3a3;
     padding: 12px 24px;
     text-align:justify;
 }
 
 .funcoes-nome{
-    color: #c5c0c0;
+    color: #000000;
     padding: 5px 120px;
     font-size: 25px;
 }
@@ -122,7 +122,7 @@
 }
 
 .personagens-titulo{
-    color: #a8a2a2;
+    color: #000000;
     text-align: center;
     padding: 24px 0;
     font-size: 30px;
@@ -148,3 +148,5 @@
 
 /*(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74)
  rgb(136, 48, 48),rgb(179, 53, 53)
+
+ rgb(117, 31, 31,),rgb(92, 33, 33),rgb(182, 55, 55)
