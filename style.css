@@ -24,7 +24,7 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .valorant{
@@ -44,11 +44,12 @@
     padding: 24px 0;
     text-align: center;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .valorant-texto-um{
     text-align: justify;
+    font-size: 20px;
 }
 
 .funcoes{
@@ -58,7 +59,7 @@
 
 .funcoes-imagem{
     width: 120px;
-    padding: 0 100px;
+    padding: 0 120px;
 }
 
 .funcoes-div{
@@ -74,10 +75,12 @@
     color: #a8a2a2;
     margin: 0 335px;
     padding: 24px 0;
+    font-size: 30px;
 }
 
 .funcoes-imagem-2{
-    width: 250px;
+    width: 120px;
+    padding: 0 100px;
 }
 
 .funcoes-texto-um{
@@ -89,6 +92,11 @@
 .funcoes-nome{
     color: #c5c0c0;
     padding: 5px 120px;
+    font-size: 25px;
+}
+
+.funcoes-texto-um{
+    font-size: 20px;
 }
 
 .personagens{
@@ -101,7 +109,7 @@
 }
 
 .personagens-icone{
-    width: 30px;
+    width: 50px;
 }
 
 .personagens-div{
@@ -117,6 +125,12 @@
     color: #a8a2a2;
     text-align: center;
     padding: 24px 0;
+    font-size: 30px;
+}
+
+.personagens-nome{
+    color: #c5c0c0;
+    font-size: 20px;
 }
 
 .rodape{
@@ -130,9 +144,7 @@
     padding: 24px 0;
 }
 
-.personagens-nome{
-    color: #c5c0c0;
-}
+
 
 /*(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74)
  rgb(136, 48, 48),rgb(179, 53, 53)
