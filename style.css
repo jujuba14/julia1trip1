@@ -8,8 +8,8 @@
 
 
 .cabecalho{
-    background-image: linear-gradient(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74));
-    color: #c5c0c0;
+    background-image: linear-gradient(rgb(31, 0, 0),rgb(92, 18, 18),rgb(117, 31, 31));
+    color: #a8a2a2;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .valorant{
-    background-image: linear-gradient(rgb(92, 74, 74), rgb(190, 39, 39),rgb(136, 48, 48));
+    background-image: linear-gradient(rgb(117, 31, 31),rgb(172, 41, 41));
     color: #c5c0c0;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
 }
 
 .funcoes{
-    background-image: linear-gradient(rgb(163, 238, 252),rgb(255, 204, 240),rgb(252, 176, 189));
+    background-image: linear-gradient(rgb(172, 41, 41),rgb(131, 42, 42));
     padding: 24px 0;
 }
 
@@ -71,7 +71,8 @@
 }
 
 .funcoes-titulo{
-    margin: 0 180px;
+    color: #a8a2a2;
+    margin: 0 335px;
     padding: 24px 0;
 }
 
@@ -80,10 +81,58 @@
 }
 
 .funcoes-texto-um{
+    color: #c5c0c0;
     padding: 12px 24px;
     text-align:justify;
 }
 
 .funcoes-nome{
+    color: #c5c0c0;
     padding: 5px 120px;
 }
+
+.personagens{
+    background-image: linear-gradient(rgb(131, 42, 42),rgb(117, 31, 31),rgb(92, 18, 18));
+    padding: 24px 0;
+}
+
+.personagens-imagem{
+    width: 200px;
+}
+
+.personagens-icone{
+    width: 30px;
+}
+
+.personagens-div{
+    text-align: center;
+}
+
+.personagens-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.personagens-titulo{
+    color: #a8a2a2;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.rodape{
+    background-image: linear-gradient(rgb(92, 18, 18),rgb(31, 0, 0));
+    text-align: center;
+}
+
+.rodape-imagem{
+    border-radius: 25%;
+    height: 70px;
+    padding: 24px 0;
+}
+
+.personagens-nome{
+    color: #c5c0c0;
+}
+
+/*(rgb(136, 48, 48), rgb(190, 39, 39), rgb(92, 74, 74)
+ rgb(136, 48, 48),rgb(179, 53, 53)
